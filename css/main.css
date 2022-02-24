@@ -1,0 +1,223 @@
+* {
+    
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    /* font-size: medium; */
+    /* font-weight: bold;
+    text-transform: uppercase; */
+  }
+
+  nav .algos a{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 110%;
+    margin-right: 3%;
+    color: rgba(255, 255, 255, 0.952);
+  }
+
+  nav .algos a:hover {
+    color: rgba(255, 255, 255, 0.63);
+    cursor: pointer;
+  }
+
+  nav .algos .butt_selected{
+    color: rgb(197, 58, 123);
+
+
+  }
+
+  section #array_container{
+    /* display: -webkit-box; */
+    display: -ms-flexbox;
+    display: flex;
+    justify-content:center;
+    margin: auto;
+    width: 600px;
+    height: 80vh;
+  }
+
+   
+  footer h6 a{
+    margin-right: 3%;
+  }
+
+  section .card h4,h5{
+    color: white;
+  }  
+
+  section .shadow {
+    box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+    transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  section .shadow:hover {
+    box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+  }
+  
+
+  /* #nav {
+    overflow: hidden;
+    background-color: #0e0f0e;
+
+  }
+
+  #nav-left {
+    padding-left: 20px;
+  }
+
+  #nav-right {
+    padding-right: 20px;
+  }
+
+  #nav-left a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: rgb(154, 189, 30);
+    font-size: 22px;
+  }
+
+  #nav-right a {
+
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+
+   #nav-right a:hover {
+    background-color: #0e0f0e;
+    color:#808a80;
+    
+
+  }
+
+  #nav .algos .butt_locked {
+    background-color: #0e0f0e;
+    color: #808a80;
+  }
+  
+  #nav .algos .butt_locked :hover {
+    background-color: #0e0f0e;
+    color: #808a80;
+    cursor: not-allowed;
+  } 
+
+  #nav .algos  .butt_selected {
+    background-color: #0e0f0e;
+    color: rgb(55, 233, 55);
+  }
+
+  .algos  .butt_selected:hover {
+    cursor: not-allowed;
+  }  */
+
+  /* .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    color:white;
+    background-color: rgb(32, 31, 31);
+    width: 250px;
+    height: 250px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  #info1 .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  #info1 .card h2{
+    text-align: center;
+    color: rgba(89, 162, 240, 0.733);
+    padding : 10px;
+  }
+
+  #info1 .card h3{
+    color: rgba(89, 162, 240, 0.733);
+    padding-bottom: 5px;
+  }
+
+  #info1 .card .card_a {
+    padding: 10px;
+    justify-content: center;
+  }  */
+
+  /* #info2 .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    color:white;
+    background-color: rgb(32, 31, 31);
+    width: 250px;
+    height: 250px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  #info2 .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  
+  
+  /* .container {
+    padding: 2px 16px;
+    padding-bottom: 10px;
+  } */
+
+  /* #info2 .card .card_a {
+    padding-top: 55px;
+    justify-content: center;
+  }
+
+  #info2 .card button {
+    padding: 10px;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    color:rgba(255, 255, 255, 0.945);
+    font-size:12px;
+    background-color:rgba(25, 98, 177, 0.733);
+    border-radius: 12px;
+    margin-top: 5px;
+    cursor: pointer;
+  } */
+
+  /* #info2 .card button:hover {
+    background-color:rgba(11, 59, 109, 0.733);
+    color:rgb(255, 255, 255);
+  }  */
+  
+  
+  
+  /* section {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 20% 60% 20%;
+        grid-template-columns: 20% 60% 20%;
+  }
+  
+  section #info1 {
+    padding: 20%;
+  }
+  
+  section #array_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content:center;
+    margin-left: 120px;
+    padding-left:160px;
+    width: 550px;
+    height: 80vh;
+  }
+  
+  section #info2 {
+    padding-top: 60px;
+    
+  } */
+  
+
+  
